@@ -1,0 +1,32 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//ical.marudot.com//iCal Event Maker
+X-WR-CALNAME:TEDxCUSAT
+CALSCALE:GREGORIAN
+BEGIN:VTIMEZONE
+TZID:Asia/Kolkata
+TZURL:http://tzurl.org/zoneinfo-outlook/Asia/Kolkata
+X-LIC-LOCATION:Asia/Kolkata
+BEGIN:STANDARD
+TZOFFSETFROM:+0530
+TZOFFSETTO:+0530
+TZNAME:IST
+DTSTART:19700101T000000
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTAMP:20190908T161020Z
+UID:20190908T161020Z-652645857@marudot.com
+DTSTART;VALUE=DATE:20190928
+DTEND;VALUE=DATE:20190929
+SUMMARY:TEDxCUSAT
+URL:www.tedxcusat.in
+DESCRIPTION:We present to you the first edition of TEDxCUSAT with the aim of celebrating the idea of TED-'Ideas worth spreading' at the Cochin University of Science and Technology campus. This season will give a platform to people from all walks of life who help inspire and catalyze our lives into powerful and better versions of ourselves.
+LOCATION:Seminar Complex\, CUSAT\, Kalamassery\, Kochi
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:TEDxCUSAT
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR
